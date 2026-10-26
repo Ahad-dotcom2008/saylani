@@ -1,0 +1,103 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 20%;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.social-icons{
+    display:flex;
+    gap: 10px;
+    padding-right: 20%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-size: x-large;
+    padding: 20px;
+}
+.nav{
+    display: flex;
+    gap: 25px;
+    font-size: medium;
+}
+.home:hover{
+     text-decoration:underline;
+    transition: 0.5s;
+    background-color: #000000;
+    color: #eceeee;
+}
+.para{
+    padding-bottom: 20px;
+    text-align:center ;
+}
+.para{
+        background-image: url("https://static.scientificamerican.com/dam/m/363c7008ec17bfd7/original/star-system-lynds-483.jpg?m=1741894463.471&w=1200");
+    background-size: cover;       
+    background-position: center;   
+    background-repeat: no-repeat;  
+    height: 500px;                
+    color:bisque;
+      display: flex;
+    flex-direction: column;        
+    align-items: center;           
+    justify-content: center;       
+    text-align: center;           
+}
+.para p{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.foot{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+}
+.btn{
+  display: flex;
+  gap: 10px;
+}
+.btn button {
+    padding: 12px 24px;
+    border: 2px solid #00d4ff;
+    border-radius: 30px;          
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.card{
+    border: 2px black solid;
+    text-align: center;
+    font-size: xx-large;
+    padding: 15px;
+}
+
+        @media (max-width: 480px){
+            .navbar{
+                font-size: large;
+            }
+ 
+            .nav{
+                font-size: small;
+                gap: 10px 15px;
+            }
+ 
+            .btn{
+                width: 100%;
+                flex-direction: column;
+            }
+ 
+            .btn button{
+                width: 100%;
+            }
+        }
